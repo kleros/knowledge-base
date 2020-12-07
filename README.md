@@ -1,4 +1,6 @@
-# Website
+# Kleros Knowledge Base
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12ba79f8-296b-481b-9b86-e2be0481702f/deploy-status)](https://app.netlify.com/sites/kleros-knowledge-base/deploys)
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
@@ -23,11 +25,3 @@ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

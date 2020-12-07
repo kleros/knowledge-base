@@ -37,6 +37,12 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# Files to be served
+build
+
+# Docusaurus generated files
+.docusaurus/
+
 # Dependency directories
 node_modules/
 jspm_packages/
